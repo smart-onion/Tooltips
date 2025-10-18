@@ -1,1 +1,5 @@
-Postgresql: "Host=localhost;Port=5432;Database=db_name;Username=db_user;Password=db_password"
+Postgresql: 
+            "Host=localhost;Port=5432;Database=db_name;Username=db_user;Password=db_password"
+
+SqlServer: 
+            "Server=(localdb)\\mssqllocaldb;Database=TrainStore;Trusted_Connection=True;TrustServerCertificate=True",
